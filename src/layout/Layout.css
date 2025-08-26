@@ -1,0 +1,19 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+}
+
+.sidebar {
+  width: 220px;
+  min-height: 100vh;
+}
+
+.nav-link {
+  padding: 8px 12px;
+  margin: 4px 0;
+  border-radius: 6px;
+}
+
+.nav-link:hover {
+  background-color: #495057;
+}
