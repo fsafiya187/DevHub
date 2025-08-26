@@ -70,7 +70,7 @@ export default function Home() {
     <div style={{ fontFamily: "Arial, sans-serif", backgroundColor: "#f8f9fa", minHeight: "100vh" }}>
       {/* Top Section */}
       <div style={{ background: "linear-gradient(135deg, #28a745, #20c997)", color: "white", padding: "60px 20px", textAlign: "center", borderRadius: "0 0 30px 30px", marginBottom: "40px" }}>
-        <h1 style={{ fontWeight: "bold", fontSize: "2.5rem" }}>Welcome back, Safiya 👋</h1>
+        <h1 style={{ fontWeight: "bold", fontSize: "2.5rem" }}>Welcome back👋</h1>
         <p style={{ fontSize: "1.2rem", marginBottom: "30px" }}>Ready to learn something new today?</p>
         <Form className="d-flex justify-content-center flex-wrap" style={{ gap: "10px" }}>
           <Form.Control type="text" placeholder="Search notes, cheat sheets, or practice..." value={search} onChange={(e) => setSearch(e.target.value)} style={{ maxWidth: "500px", minWidth: "250px" }} />
